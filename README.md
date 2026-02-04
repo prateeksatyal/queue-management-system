@@ -1,9 +1,9 @@
 # Queue Management System (QueueEase)
 
 ## Project Overview
-QueueEase is a Python-based desktop queue management system designed to manage customer queues in service-oriented environments such as banks, hospitals, and offices. The system replaces manual queue handling with a digital token-based approach to improve efficiency and reduce waiting time.
+QueueEase is a Python-based desktop queue management system developed as part of the **ST4008CEM – Computing Activity Led Learning (Project 1)** module. The system is designed to manage customer queues in service-oriented environments such as banks, hospitals, and offices.
 
-The application provides separate interfaces for customers and staff, ensuring clear role-based functionality and smooth queue operations.
+The application replaces manual queue handling with a digital token-based approach to improve efficiency, reduce waiting time, and enhance the overall service experience. Separate interfaces are provided for customers and staff to ensure clear role-based functionality.
 
 ---
 
@@ -12,13 +12,14 @@ The application provides separate interfaces for customers and staff, ensuring c
 - Improve service efficiency
 - Digitize the queue handling process
 - Provide a simple and user-friendly graphical interface
+- Apply practical programming and team collaboration skills
 
 ---
 
 ## User Roles and Features
 
 ### Customer
-- Register and log in
+- Register and log in to the system
 - Generate a queue token
 - View current token status
 - See which token is currently being served
@@ -26,32 +27,36 @@ The application provides separate interfaces for customers and staff, ensuring c
 
 ### Staff
 - Log in as staff
-- View pending tokens
-- Call the next token
+- View all pending tokens
+- Call the next token in the queue
 - Mark tokens as completed
-- Reset the queue
+- Reset the queue when required
 - Log out securely
 
 ---
 
 ## Technologies Used
-- Python
-- Tkinter (GUI)
-- SQLite
-- Git & GitHub
+- **Programming Language:** Python
+- **GUI Framework:** Tkinter
+- **Database:** SQLite
+- **Version Control:** Git & GitHub
 
 ---
 
+## Project Structure
 queue-management-system/
-├── main.py
-├── auth.py
-├── database.py
-├── customer.py
-├── staff.py
-├── token_manager.py
-├── README.md
-├── .gitignore
+├── main.py # Application entry point and UI routing
+├── auth.py # User authentication (login & registration)
+├── database.py # Database connection and table creation
+├── customer.py # Customer dashboard and token actions
+├── staff.py # Staff dashboard and queue control
+├── token_manager.py # Core queue and token management logic
+├── README.md # Project documentation
+├── .gitignore # Files excluded from version control
 
+
+
+This structure improves readability, maintainability, and supports team-based development.
 
 ---
 
@@ -60,31 +65,39 @@ queue-management-system/
 - Database tables are created automatically at runtime.
 - The database file is not included in the repository to avoid conflicts in a team environment.
 
+This approach follows good practices for collaborative development.
+
 ---
 
 ## How to Run the Project
-1. Install Python 3.x
+1. Ensure Python 3.x is installed on your system.
 2. Clone the repository:
    git clone https://github.com/prateeksatyal/queue-management-system.git
-3. Navigate to the project folder:
+
+3. Navigate to the project directory:
    cd queue-management-system
+
 4. Run the application:
    python main.py
+
+
+The database will be created automatically on first execution.
 
 ---
 
 ## Limitations
 - Desktop-based application only
-- Basic authentication (academic purpose)
+- Basic authentication for academic purposes
 - No network-based multi-user support
 
 ---
 
 ## Future Improvements
 - Token priority support
-- Better UI design
-- Reports and analytics
-- Web-based version
+- Improved user interface design
+- Reports and analytics dashboard
+- Web-based version of the system
+- Enhanced security features
 
 ---
 
@@ -98,18 +111,16 @@ queue-management-system/
 - Managed GitHub repository and version control
 - Reviewed and finalized project documentation
 
----
-
 ### Team Members
 
 **Aryanshah Thakuri**
-- Developed user authentication module (`auth.py`)
+- Developed the user authentication module (`auth.py`)
 - Implemented login and registration functionality
 - Assisted in input validation and error handling
 - Contributed to documentation improvements
 
 **Ritesh Chand**
-- Designed and implemented database layer (`database.py`)
+- Designed and implemented the database layer (`database.py`)
 - Created database schema and table creation logic
 - Managed SQLite integration and data handling
 - Assisted in debugging database-related issues
@@ -120,8 +131,6 @@ queue-management-system/
 - Assisted in staff-side functionality (`staff.py`)
 - Helped with UI testing and validation
 
----
-
 ### Collaborative Work
 - All team members participated in testing and debugging
 - Documentation and UI improvements were done collaboratively
@@ -130,11 +139,13 @@ queue-management-system/
 ---
 
 ## Academic Note
-This project is developed for educational purposes as part of a software design coursework. Security features are simplified for learning purposes.
+This project is developed for **ST4008CEM – Computing Activity Led Learning (Project 1)**.  
+The focus of the project is on practical implementation, teamwork, and applying programming concepts learned during the module.
 
 ---
 
 ## Conclusion
-QueueEase demonstrates the application of software engineering principles, GUI development, database integration, and team-based version control practices.
-   
+QueueEase demonstrates the practical application of Python programming, GUI development, database integration, and collaborative version control. The project fulfills the objectives of the **Computing Activity Led Learning** module by emphasizing hands-on development and team-based problem solving.
+
+The project follows a modular structure where each file handles a specific responsibility.
 
