@@ -33,7 +33,7 @@ class CustomerView(tk.Frame):
                                    command=self.take_token, width=20, bg="#e1e1e1")
         self.token_btn.pack(pady=5)
 
-        refresh_btn = tk.Button(btn_frame, text="Refresh Status", 
+        refresh_btn = tk.Button(btn_frame, text="Refresh Token Status",
                                 command=self.refresh_data, width=20)
         refresh_btn.pack(pady=5)
         
