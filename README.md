@@ -43,16 +43,19 @@ The application replaces manual queue handling with a digital token-based approa
 
 ---
 
-## Project Structure
+## 📁 Project Structure
+
+```text
 queue-management-system/
-├── main.py # Application entry point and UI routing
-├── auth.py # User authentication (login & registration)
-├── database.py # Database connection and table creation
-├── customer.py # Customer dashboard and token actions
-├── staff.py # Staff dashboard and queue control
-├── token_manager.py # Core queue and token management logic
-├── README.md # Project documentation
-├── .gitignore # Files excluded from version control
+├── main.py              # Application entry point and UI routing
+├── auth.py              # User authentication (login & registration)
+├── database.py          # Database connection and table creation
+├── customer.py          # Customer dashboard and token actions
+├── staff.py             # Staff dashboard and queue control
+├── token_manager.py     # Core queue and token management logic
+├── README.md            # Project documentation
+└── .gitignore           # Files excluded from version control
+```
 
 
 
