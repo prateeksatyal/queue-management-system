@@ -1,4 +1,4 @@
-# Purpose: Handles User Registration and Login logic. 
+# Implements the functionality for user registration and login validation.
 from database import get_db_connection
 import sqlite3
 
