@@ -1,5 +1,5 @@
 # Purpose: Handles database connection and table creationimport sqlite3
-
+import sqlite3
 # Define the database file name
 DB_NAME = "queue_system.db"
 
