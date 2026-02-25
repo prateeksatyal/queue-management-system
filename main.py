@@ -10,8 +10,8 @@ class App(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("QueueEase - Queue Management System")
-        self.geometry("600x500")
-        self.resizable(False, False)
+        self.state("zoomed")
+        self.resizable(True, True)
 
         # Initialize Container for frames
         self.container = tk.Frame(self)
